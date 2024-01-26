@@ -29,28 +29,40 @@ import java.util.regex.Pattern;
     }
 
     private String normalizeLine(String line) {
+        line = allLowerCase(line);
         line = line.replaceAll("\\s+", " ");
         line = line.replaceAll("\\s*,\\s*", ", ");
-        line = line.replaceAll("\\s*\\.\\s*", ".");
+        line = line.replaceAll("\\s*\\.\\s*", ". ");
         line = line.replaceAll("\\s*:\\s*", ": ");
-        line = capitalizeFirstCharacter(line);
+        line = lowerCaseFirstCharacter(line);
+        line = upperFirstCharacter(line);
         line = line.replaceAll("\\s*\"\\s*", "\"");
         return line;
     }
 
-    private String capitalizeFirstCharacter(String line) {
-        Pattern pattern = Pattern.compile("(^|[.!?]\\s+|\"\\s+)([a-z])");
+    private String upperFirstCharacter(String line) {
+        Pattern pattern = Pattern.compile("(^|[.]\\s+|\"\\s+)([a-z])");
         Matcher matcher = pattern.matcher(line);
-
         StringBuffer result = new StringBuffer();
-
         while (matcher.find()) {
             matcher.appendReplacement(result, matcher.group(1) + matcher.group(2).toUpperCase());
         }
-
         matcher.appendTail(result);
 
         return result.toString();
     }
+    private String lowerCaseFirstCharacter(String line) {
+        Pattern pattern = Pattern.compile("(^|[,:]\\s+|\"\\s+)([A-Z])");
+        Matcher matcher = pattern.matcher(line);
+        StringBuffer result = new StringBuffer();
+        while (matcher.find()) {
+            matcher.appendReplacement(result, matcher.group(1) + matcher.group(2).toLowerCase());
+        }
+        matcher.appendTail(result);
+        return result.toString();
+    }
+    private String allLowerCase(String line){
+        return line.toLowerCase();
+    }
 }
-    
+

@@ -4,7 +4,6 @@
  */
 package View;
 
-import Common.Common;
 import java.util.ArrayList;
 
 /**
@@ -53,3 +52,4 @@ public abstract class Menu<T> {
         }
     }
 }
+

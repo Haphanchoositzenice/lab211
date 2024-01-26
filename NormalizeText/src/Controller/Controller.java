@@ -1,4 +1,4 @@
-    /*
+/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -26,7 +26,7 @@ public class Controller extends Menu<String>{
     public void execute(int n) {
         switch (n) {
             case 1:
-                normalizeText("src\\test.txt", "src\\final.txt");
+                normalizeText("src\\text.txt", "src\\result.txt");
                 break;
             case 2:
                 System.exit(0);

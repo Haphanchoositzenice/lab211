@@ -1,0 +1,6 @@
+School=Truong Hoc
+Cat=Meo
+Go=Di
+Cook=Nau An
+Run=Chay
+Dog=Cho

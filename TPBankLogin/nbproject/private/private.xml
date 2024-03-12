@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Language/Vi.properties</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Language/En.properties</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Common/Library.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/View/Menu.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/View/Main.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Controller/Controller.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/DataAcess/LoginDAO.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Repository/ILoginRepository.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Repository/LoginRepository.java</file>
+            <file>file:/C:/Users/ROG/Documents/NetBeansProjects/TPBankLogin/src/Model/User.java</file>
+        </group>
+    </open-files>
+</project-private>

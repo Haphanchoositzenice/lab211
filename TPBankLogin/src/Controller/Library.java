@@ -138,7 +138,7 @@ public class Library {
     }
     
 
-private final char[] chars = {'1', '2', '3', '4', '5', '6',
+private final char[] chars = {'0','1', '2', '3', '4', '5', '6',
         '7', '8', '9', 'A', 'B', 'C', 'F', 'E', 'F', 'G', 'H', 'J', 'K',
         'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y',
         'Z'};
